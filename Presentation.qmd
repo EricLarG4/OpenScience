@@ -1,0 +1,198 @@
+---
+title: "A Hitchiker's Guide to Open Science at ARNA"
+format: 
+  # revealjs:
+  mono-accent-revealjs:
+    from: markdown+emoji
+    cache: true
+    incremental: false
+    # css: [themes/theme.css]?
+    css: [themes/custom.css]
+    transition: fade
+    transition-speed: slow
+    navigation-mode: vertical
+    controls-layout: bottom-right
+    touch: true
+    fig-dpi: 300
+    footnotes-hover: true
+    auto-animate: true
+    embed-resources: true
+    # footer: "Effective Data Visualization"
+revealjs-plugins:
+  # - spotlight
+  - pointer
+  - verticator
+  # - node_modules/reveal.js-verticator/plugin/highlight
+# filters:
+   # - roughnotation
+---
+
+# Section 1: What is Open Science and why should I care?
+
+## heading 2
+
+-   xxx
+
+# Section 2: How to publish Open papers without having to sell a kidney and having one's work stolen
+
+## Archiving on a pre-print repository
+
+-   Free and with good visibility for well-known repositories ([BioRχiv](https://www.biorxiv.org/){.uri}, [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/public-dashboard))
+
+    -   Indexed in e.g. Google Scholar
+    -   Has a DOI, citable
+
+-   Supported by many publishers
+
+-   Possible to revise the manuscript and thus to upload accepted manuscript
+
+    -   See [Disclaimers]
+
+-   Possible to link final paper to preprint
+
+-   Authors retain copyright
+
+-   Authors establish precedence
+
+## Example of BioRχiv deposition
+
+![](images/Example_biorxiv.png){fig-align="center"}
+
+## Choose an open access modality
+
+Green/gold/diamond
+
+## Choose a license \[1/2\]
+
+The license impacts what people can do with your work, e.g.
+
+-   CC BY: Reusers can distribute
+
+    -   if attribution given
+
+    -   [remixed, adapted, built upon]{.highlight}
+
+    -   including for [commercial]{.highlight} use
+
+-   CC BY-NC-ND: Reusers can copy and distribute the work
+
+    -   if attribution given
+
+    -   in [unadapted form only]{.highlight}
+
+    -   for [non-commercial]{.highlight} use only
+
+## Choose a license \[2/2\]
+
+The license impacts the publishing costs a.k.a APC
+
+![](images/Example_APC.png){fig-align="center"}
+
+## Archiving after publication
+
+-   The go-to repository in France is [HAL](https://hal.science/)
+
+    -   Somewhat redundant local initiative @UBx: [OSKAR](https://oskar-bordeaux.fr/)
+
+-   For PhD thesis: [theses.fr](https://theses.fr/?domaine=theses)
+
+## Disclaimers
+
+-   Publishers may require the addition of disclaimers on top of accepted/published manuscript depositions
+
+    -   Publishers and public-mandate dependent, e.g. [ACS](https://pubs.acs.org/page/copyright/journals/posting_policies.html)
+
+![](images/Example_disclaimer_HAL.png){fig-align="center"}
+
+## So when can I upload the publishers' version exactly?
+
+# Section 3: Data, code and software
+
+## Go FAIR
+
+-   **Findable**
+
+    -   F1. (Meta)data are assigned a globally **unique and persistent identifier**
+
+    -   F2. Data are described with **rich metadata** (defined by R1)
+
+    -   F3. Metadata clearly and explicitly include the identifier of the data they describe
+
+    -   F4. (Meta)data are registered or indexed in a searchable resource
+
+-   **Accessible**
+
+    -   A1. (Meta)data are **retrievable by their identifier** using a standardised communications protocol
+
+        -   A1.1 The protocol is **open, free, and universally implementable**
+
+        -   A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
+
+    -   A2. Metadata are accessible, even when the data are no longer available
+
+## Go FAIR
+
+-   **Interoperable**
+
+    -   I1. (Meta)data use a **formal, accessible, shared, and broadly applicable language** for knowledge representation.
+
+    -   I2. (Meta)data use vocabularies that follow FAIR principles
+
+    -   I3. (Meta)data include qualified references to other (meta)data
+
+-   **Reusable**
+
+    -   R1. (Meta)data are richly described with a plurality of **accurate and relevant attributes**
+
+        -   R1.1. (Meta)data are released with a clear and accessible data usage license
+
+        -   R1.2. (Meta)data are associated with **detailed provenance**
+
+        -   R1.3. (Meta)data meet domain-relevant **community standards**
+
+## Data management plan
+
+-   DMP Opidor
+
+# Section 4: Resources
+
+## General resources
+
+-   [Research Ministry](https://www.enseignementsup-recherche.gouv.fr/fr/science-ouverte-50360) \[FR\]
+-   [Ouvrir la science!](https://www.ouvrirlascience.fr/home/) \[FR/EN\]
+    -   French Committee for Open Science
+    -   Ensures the implementation of the National Open Science Policy
+    -   Publishes guides, workshop reports
+    -   Publishes a small (and pretty) Encyclopedia of Open Science: https://encyclo.ouvrirlascience.fr/
+-   [CNRS](https://www.science-ouverte.cnrs.fr/en/) \[FR/EN\]:
+
+## Specific resources: Publishing
+
+-   [Couperin consortium](https://www.couperin.org/) \[FR\]: Negociates on behalf of public entities for publication access/publishing costs (among other things)
+
+-   Preprint repositories
+
+    -   [BioRχiv](https://www.biorxiv.org/){.uri} \[EN\]: Bio\[insert your specialty\]
+
+    -   [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/public-dashboard) \[EN\]: Chemitry
+
+-   Post-publishing repositories
+
+    -   [HAL](https://hal.science/) \[FR/EN\]: National repository
+
+    -   [OSKAR](https://oskar-bordeaux.fr/) \[FR/EN\]: UBx repository
+
+-   Licensing
+
+    -   [Creative Commons](https://creativecommons.org/share-your-work/cclicenses/) \[EN\]: Choose what people can do with your work
+
+        -   [Chooser](https://creativecommons.org/chooser/): Select the license that fits your need
+
+## Specific resources: Data, code and software
+
+-   Guides from Ouvrir la Science!
+    -   [Research data guide](https://www.ouvrirlascience.fr/wp-content/uploads/2024/03/24-02-28-Donnees-EN-WEB.pdf)
+    -   [Source code and software](https://www.ouvrirlascience.fr/wp-content/uploads/2023/10/23-09-23-soft_EN-web-1.pdf)
+    -   Also available in FR
+-   [FAIR](https://www.gofair.foundation/) data
+    -   [Principles](https://www.gofair.foundation/interpretation)
