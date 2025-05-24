@@ -18,15 +18,24 @@ format:
     chalkboard: false
     touch: true
     fig-dpi: 300
+    auto-stretch: true
+    fig-responsive: true
     footnotes-hover: true
     auto-animate: true
     embed-resources: true
-    multiplex:
-        id: '10e515c218feb81a'
-        secret: '13652805320794272084'
-    width: 100%
-    height: 100%
-    margin: 0.01
+    comments: false
+    scrollable: true
+    scroll-view: false
+    link-external-newwindow: true
+    link-external-icon: true
+    crossrefs-hover: true
+    author-meta: "Eric Largy"
+    # multiplex:
+    #     id: '10e515c218feb81a'
+    #     secret: '13652805320794272084'
+    # width: 90%
+    # height: 90%
+    margin: 0.1
     slide-number: h.v
     # footer: "Effective Data Visualization"
 revealjs-plugins:
@@ -39,7 +48,7 @@ filters:
   - roughnotation
 ---
 
-# Section 1: What is Open Science and why should I care?
+# Section 1: What is Open Science and why should I care? {background-color="#43418a"}
 
 ## What is Open Science?
 
@@ -80,9 +89,9 @@ Key components:
 
 I can reuse and adapt this figure:
 
-![Understanding open science, 2022, UNESCO, doi: 10.54677/UTCD9302](images/UNESCO_OS.png){fig-align="center" width="350"}
+![Understanding open science, 2022, UNESCO, doi: 10.54677/UTCD9302](images/UNESCO_OS.png){fig-align="center" width="285"}
 
-![](images/UNESCO_ccby.png){fig-align="center" width="1516"}
+![](images/UNESCO_ccby.png){fig-align="center" width="1250"}
 
 ## Data reuse
 
@@ -97,9 +106,17 @@ Or I can re-use curated, high-quality data from a far-away university to make my
 
 -   Some aspects of it are made [mandatory]{.highlight} by funding agencies, trustees
 
-    -   European commission (Horizon Europe), ANR, Plan S (Coalition S + ERC),...
+    -   [Horizon Europe](https://research-and-innovation.ec.europa.eu/strategy/strategy-2020-2024/our-digital-future/open-science/open-access_en) and [ERC](https://erc.europa.eu/manage-your-project/open-science) 🇬🇧
 
-    -   See [Funding agencies and trustees]
+    -   [Plan S](https://www.coalition-s.org/) 🇬🇧
+
+    -   [Plan national pour la science ouverte](https://www.ouvrirlascience.fr/plan-national-pour-la-science-ouverte/) 🇫🇷
+
+    -   [Charte de l’Inserm pour la science ouverte](https://pro.inserm.fr/rubriques/en-labo/science-ouverte/la-science-ouverte-a-linserm#charte-science-ouverte) 🇫🇷
+
+        -   See the recommendation for immediate and systematic archiving: [Charte INSERM]
+
+-   Open archive repositories may serve [individual and team evaluation]{.highlight}
 
 -   [Open Science practices are evaluated]{.highlight} in funding/fellowship proposals
 
@@ -135,16 +152,19 @@ Or I can re-use curated, high-quality data from a far-away university to make my
 
 ## Archiving on a pre-print repository
 
+::: panel-tabset
+## Repositories
+
 -   Free and with good visibility for well-known repositories ([BioRχiv](https://www.biorxiv.org/){.uri}, [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/public-dashboard))
 
-    -   Indexed in e.g. Google Scholar
+    -   Indexed in e.g. Google Scholar, [Europe PMC](https://europepmc.org/)
     -   Has a DOI, citable
 
 -   Supported by many publishers
 
 -   Possible to revise the manuscript and thus to upload accepted manuscript
 
-    -   See [Disclaimers]
+    -   See [Google Scholar]
 
 -   Possible to link final paper to preprint
 
@@ -152,9 +172,10 @@ Or I can re-use curated, high-quality data from a far-away university to make my
 
 -   Authors establish precedence
 
-## Example of BioRχiv deposition
+## Example
 
-![](images/Example_biorxiv.png){fig-align="center"}
+![](images/paste-3.png){width="75%"}
+:::
 
 ## Choose an open access modality
 
@@ -206,7 +227,10 @@ Certaines revues fonctionnent selon un modèle hybride : les articles y sont a 
 :::
 ::::
 
-## Choose a license \[1/2\]
+## Choosing a license
+
+::: panel-tabset
+## Impact on use
 
 The license impacts what people can do with your work, e.g.
 
@@ -226,31 +250,110 @@ The license impacts what people can do with your work, e.g.
 
     -   for [non-commercial]{.highlight} use only
 
-## Choose a license \[2/2\]
+## Impact on cost
 
-The license impacts the article processing charges a.k.a APC
+The license impacts the article processing charges (APCs)
 
-![](images/Example_APC.png){fig-align="center"}
+![](images/paste-4.png){width="75%"}
+:::
+
+## Choosing a journal
+
+::: panel-tabset
+## Relevance and impact
+
+Journals may be selected based on many criteria
+
+-   Reputation
+
+-   (perceived) Impact
+
+-   Relevance to the work
+
+    -   <https://jane.biosemantics.org/>
+
+OA options (and their costs) should be considered!
+
+The Couperin consortium negotiates decreased (or no) APCs on behalf of our trustees
+
+## Couperin
+
+xx
+:::
 
 ## Archiving after publication
 
+<div>
+
+:::::: panel-tabset
+## Repositories
+
 -   The go-to repository in France is [HAL](https://hal.science/)
+
+    -   Possibility to link Orcid, Google Scholar, etc.
 
     -   Somewhat redundant local initiative @UBx: [OSKAR](https://oskar-bordeaux.fr/)
 
 -   For PhD thesis: [theses.fr](https://theses.fr/?domaine=theses)
 
-## Disclaimers
+::: callout-warning
+## Disclaimer
 
--   Publishers may require the addition of disclaimers on top of accepted/published manuscript depositions
+Publishers may require the addition of disclaimers on top of accepted/published manuscript depositions e.g. [ACS](https://pubs.acs.org/page/copyright/journals/posting_policies.html):
+:::
 
-    -   Publishers and public-mandate dependent, e.g. [ACS](https://pubs.acs.org/page/copyright/journals/posting_policies.html)
+![](images/Example_disclaimer_HAL.png)
 
-![](images/Example_disclaimer_HAL.png){fig-align="center"}
+## HAL x Orcid
 
-## So when can I upload the publishers' version exactly?
+![](images/orcid_suggestions.png)
 
-xxx
+## Can I, and when?
+
+You should:
+
+-   [Refer to your funding mandate]{.highlight}: it may have specific requirements regarding archiving
+
+-   [Consider the publisher's policy]{.highlight}: permissions can vary
+
+-   Determine whether you can use the [publisher’s or the author accepted version]{.highlight} (AAM)
+
+::: callout-tip
+## I publish, what are my rights? 🇫🇷
+
+Consult the guide from [Ouvrir la Science !](https://www.ouvrirlascience.fr/je-publie-quels-sont-mes-droits/)
+:::
+
+::: callout-note
+## The opinion of [Lund's University Faculty of Law](https://www.law.lu.se/library/write-and-publish/open-access/parallell-publishing-and-copyright)
+
+When it comes to parallel publishing/self-archiving, it is difficult to make a general statement about what is permitted or not as it varies from one publisher to another and between different types of publications, and policies are frequently updated. Even if you retain the copyright to your text, you do not automatically have the copyright to the publisher’s PDF version. Publishing houses have different policies on this, more or less official.
+
+An important question to consider is whether you want to use the publisher’s PDF version or a so-called author’s version, the last approved and corrected manuscript version before the publisher adds their journal layout. Many publishers allow the author’s version to be used without special permission and some allow the PDF version to be used if permission is requested, even though possible contracts or official policies may state otherwise.
+:::
+
+## Google Scholar
+
+![](images/scholar_2.png)
+
+## Charte INSERM
+
+Recommendation 1: Archive in an open repository
+
+-   The 2016 Digital Republic Act \[[Légifrance](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000033202746) 🇫🇷\] grants authors the [right to deposit the AAM in an open archive]{.highlight}
+
+-   Researchers are required to [systematically deposit]{.highlight} all new scientific publications in full text in the national open archive HAL
+
+-   AAMs must be deposited [immediately after acceptance]{.highlight} for publication
+
+-   The use of ORCID and idHAL identifiers is highly recommended to prevent any ambiguity in author identification and to facilitate deposits
+
+-   Articles deposited on HAL and mentioned in researchers' files will serve as the basis for evaluating their output
+
+-   The evaluation of research structures will be based on the same principle, with the HCERES relying on collections structured in HAL (teams, units)
+::::::
+
+</div>
 
 # Section 3: Data, code and software
 
@@ -328,8 +431,8 @@ GitHub, GitLab, BitBucket,...
 
 ## General resources
 
--   [Research Ministry](https://www.enseignementsup-recherche.gouv.fr/fr/science-ouverte-50360) \[FR\]
--   [Ouvrir la science!](https://www.ouvrirlascience.fr/home/) \[FR/EN\]
+-   [Research Ministry](https://www.enseignementsup-recherche.gouv.fr/fr/science-ouverte-50360) 🇫🇷
+-   [Ouvrir la science!](https://www.ouvrirlascience.fr/home/) 🇬🇧🇫🇷
     -   French Committee for Open Science
     -   Ensures the implementation of the National Open Science Policy
     -   Publishes guides, workshop reports
@@ -337,7 +440,7 @@ GitHub, GitLab, BitBucket,...
 
 ## Funding agencies and trustees
 
--   [CNRS](https://www.science-ouverte.cnrs.fr/en/) \[FR/EN\]
+-   [CNRS](https://www.science-ouverte.cnrs.fr/en/) 🇬🇧🇫🇷
 
     -   [Resources to publish in Open Access](https://www.science-ouverte.cnrs.fr/service/publier-en-acces-ouvert/)
 
@@ -345,41 +448,63 @@ GitHub, GitLab, BitBucket,...
 
     -   [Resources to access papers](https://www.science-ouverte.cnrs.fr/service/acceder-a-la-documentation/): Highly recommended: the [Click & Read](https://clickandread.inist.fr/) extension ❤️
 
--   [INSERM](https://www.inserm.fr/nos-recherches/science-ouverte/) \[FR\]
+-   [INSERM](https://www.inserm.fr/nos-recherches/science-ouverte/) 🇫🇷
 
--   [European Commission](https://rea.ec.europa.eu/open-science_en) \[EN: Q&A on what you should comply with (for funding)
+-   [UBx](https://www.u-bordeaux.fr/en/research/scientific-vision/open-science) 🇬🇧🇫🇷
 
--   [Plan S](https://www.coalition-s.org/): Initiative for Open Access publishing, built by a group of national research funding organisations, with the support of the ERC
+    -   [open.u-bordeaux.fr](https://open.u-bordeaux.fr/): Open access journals from UBx
 
-    -   [Plan S 10 principles](https://www.coalition-s.org/addendum-to-the-coalition-s-guidance-on-the-implementation-of-plan-s/principles-and-implementation/)
+    -   [OSKAR repository](https://www.u-bordeaux.fr/en/research/scientific-vision/open-science/oskar)
+
+-   [European Commission](https://rea.ec.europa.eu/open-science_en) 🇬🇧: Q&A on what you should comply with (for funding)
+
+-   [Plan S](https://www.coalition-s.org/) 🇬🇧: Initiative for Open Access publishing, built by a group of national research funding organisations, with the support of the ERC
+
+    -   [Plan S 10 principles](https://www.coalition-s.org/addendum-to-the-coalition-s-guidance-on-the-implementation-of-plan-s/principles-and-implementation/) 🇬🇧
 
 ## Specific resources: Publishing
 
--   [Couperin consortium](https://www.couperin.org/) \[FR\]: Negociates on behalf of public entities for publication access/publishing costs (among other things)
+::: panel-tabset
+## APCs and licensing
 
--   Preprint repositories
+-   [Couperin consortium](https://www.couperin.org/) 🇫🇷: Negociates on behalf of public entities for publication access/publishing costs (among other things)
 
-    -   [BioRχiv](https://www.biorxiv.org/){.uri} \[EN\]: Bio\[insert your specialty\]
+-   Publication licensing
 
-    -   [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/public-dashboard) \[EN\]: Chemitry
-
--   Post-publishing repositories
-
-    -   [HAL](https://hal.science/) \[FR/EN\]: National repository
-
-    -   [OSKAR](https://oskar-bordeaux.fr/) \[FR/EN\]: UBx repository
-
--   Licensing
-
-    -   [Creative Commons](https://creativecommons.org/share-your-work/cclicenses/) \[EN\]: Choose what people can do with your work
+    -   [Creative Commons](https://creativecommons.org/share-your-work/cclicenses/) 🇬🇧🇫🇷: Choose what people can do with your work
 
         -   [Chooser](https://creativecommons.org/chooser/): Select the license that fits your need
+
+-   Software/repository licensing
+
+    -   [Licensing assistant from the EU Commission](https://interoperable-europe.ec.europa.eu/collection/eupl/solution/licensing-assistant/find-and-compare-software-licenses) 🇬🇧
+
+    -   [GitHub repository licensing](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) 🇬🇧
+
+## Preprints
+
+-   [BioRχiv](https://www.biorxiv.org/){.uri} 🇬🇧: Bio\[insert your specialty\]
+
+-   [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/public-dashboard) 🇬🇧: Chemistry
+
+    ::: callout-tip
+    ## Europe PMC
+
+    If a preprint has been published in a journal indexed in Europe PMC, the preprint and published article are linked. Preprints are linked to [data behind the paper](https://europepmc.org/article/PPR/PPR158775#data), can be claimed to an [ORCID](https://europepmc.org/article/PPR/PPR161858), included in [citation networks](https://europepmc.org/article/PPR/PPR30268#impact), and linked to [platforms that comment on or peer review preprints](https://europepmc.org/article/PPR/PPR701206#reviews)
+    :::
+
+## Postprints
+
+-   [HAL](https://hal.science/) 🇬🇧🇫🇷: National repository
+
+-   [OSKAR](https://oskar-bordeaux.fr/) 🇬🇧🇫🇷: UBx repository
+:::
 
 ## Specific resources: Data, code and software
 
 -   Guides from Ouvrir la Science!
-    -   [Research data guide](https://www.ouvrirlascience.fr/wp-content/uploads/2024/03/24-02-28-Donnees-EN-WEB.pdf)
-    -   [Source code and software](https://www.ouvrirlascience.fr/wp-content/uploads/2023/10/23-09-23-soft_EN-web-1.pdf)
-    -   Also available in FR
--   [FAIR](https://www.gofair.foundation/) data
+    -   [Research data guide](https://www.ouvrirlascience.fr/wp-content/uploads/2024/03/24-02-28-Donnees-EN-WEB.pdf) 🇬🇧
+    -   [Source code and software](https://www.ouvrirlascience.fr/wp-content/uploads/2023/10/23-09-23-soft_EN-web-1.pdf) 🇬🇧
+    -   Also available in 🇫🇷
+-   [FAIR](https://www.gofair.foundation/) data 🇬🇧
     -   [Principles](https://www.gofair.foundation/interpretation)

@@ -7,7 +7,7 @@
 }
 
 .panel-tabset [role="tab"] {
-  border-top-color: rgba(0,0,0,0);
+  border-top-color: rgba(0, 0, 0, 0);
   display: inline-block;
   margin-bottom: -1px;
   color: #41648a;
@@ -15,7 +15,8 @@
 }
 
 
-.slide-number, .reveal.has-logo .slide-number {
+.slide-number,
+.reveal.has-logo .slide-number {
   bottom: 14px !important;
   left: 50px !important;
   top: unset !important;
