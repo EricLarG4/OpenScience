@@ -4,36 +4,134 @@ format:
   # revealjs:
   mono-accent-revealjs:
     from: markdown+emoji
-    cache: true
+    cache: false
     incremental: false
     # css: [themes/theme.css]?
     css: [themes/custom.css]
     transition: fade
     transition-speed: slow
     navigation-mode: vertical
+    progress: true
+    controls: auto
     controls-layout: bottom-right
+    preview-links: false
+    chalkboard: false
     touch: true
     fig-dpi: 300
     footnotes-hover: true
     auto-animate: true
     embed-resources: true
+    multiplex:
+        id: '10e515c218feb81a'
+        secret: '13652805320794272084'
+    width: 100%
+    height: 100%
+    margin: 0.01
+    slide-number: h.v
     # footer: "Effective Data Visualization"
 revealjs-plugins:
   # - spotlight
   - pointer
   - verticator
   # - node_modules/reveal.js-verticator/plugin/highlight
-# filters:
-   # - roughnotation
+filters:
+  # - tachyonsextra
+  - roughnotation
 ---
 
 # Section 1: What is Open Science and why should I care?
 
-## heading 2
+## What is Open Science?
 
--   xxx
+Movement to make scientific research, data, and dissemination accessible to [all levels]{.highlight} of society.
 
-# Section 2: How to publish Open papers without having to sell a kidney and having one's work stolen
+Key components:
+
+-   Open [Access]{.highlight}: Free [availability]{.rn} and unrestricted use of research articles.
+
+-   Open [Data]{.highlight}: [Sharing]{.rn} data freely for anyone to use, reuse, and redistribute.
+
+-   Open [Methodology]{.highlight}: [Transparency]{.rn} in research methods.
+
+-   Open [Source]{.highlight}: Use and development of software, freely accessible and modifiable.
+
+-   Open [Peer Review]{.highlight}: Transparent review processes to enhance research credibility.
+
+-   Open [Educational Resources]{.highlight}: Free access to educational materials and resources
+
+## Why should I care?
+
+-   [Reproducibility]{.highlight}: Facilitates the verification and replication of research results.
+
+-   Increased [Collaborations]{.highlight}, across academia, industry, public authorities, citizen groups.
+
+-   Accelerated [Innovation]{.highlight}: Faster progress through shared knowledge and resources
+
+-   Greater [Impact]{.highlight} through wider dissemination
+
+-   Enhanced [Transparency]{.highlight}: Promotes [trust]{.highlight} in scientific findings
+
+-   Public [Engagement]{.highlight}, fostering a more scientifically literate society.
+
+## Why should I care? Examples
+
+::: panel-tabset
+## Figure reuse
+
+I can reuse and adapt this figure:
+
+![Understanding open science, 2022, UNESCO, doi: 10.54677/UTCD9302](images/UNESCO_OS.png){fig-align="center" width="350"}
+
+![](images/UNESCO_ccby.png){fig-align="center" width="1516"}
+
+## Data reuse
+
+Or I can re-use curated, high-quality data from a far-away university to make my own plots
+
+#INSERT RACHAMANDRAN#
+
+## 
+:::
+
+## Why should I care?, but for pragmatists
+
+-   Some aspects of it are made [mandatory]{.highlight} by funding agencies, trustees
+
+    -   European commission (Horizon Europe), ANR, Plan S (Coalition S + ERC),...
+
+    -   See [Funding agencies and trustees]
+
+-   [Open Science practices are evaluated]{.highlight} in funding/fellowship proposals
+
+    -   E.g. Criterion 1.2 of Criterion 1 (Excellence) of MSCA fellowship: Soundness of the proposed methodology (including \[...\] the quality of open science practices)
+
+## But people will steal my stuff!
+
+“As open as possible, as closed as necessary”: Results and data may be kept closed if making them public in open access is against the researcher’s legitimate interests, e.g.
+
+-   commercially exploitation of research results
+
+-   if it is against any obligations mentioned in the Grant Agreement (e.g. personal data protection)
+
+## Practically, what can I do?
+
+-   Publish in Open Access journals
+
+    -   or make your preprint and/or accepter manuscript available
+
+-   Share your data in open repositories
+
+-   Use open-source tools and software
+
+    -   And make yours open
+
+-   Advocate for Open Science policies in your institution
+
+    -   Please ARNA, pay for my APCs 🤑
+
+-   Educate others about the importance and benefits of Open Science
+
+# Section 2: How to publish Open papers without having to sell a kidney
 
 ## Archiving on a pre-print repository
 
@@ -60,7 +158,53 @@ revealjs-plugins:
 
 ## Choose an open access modality
 
-Green/gold/diamond
+:::: panel-tabset
+## 🟩 **Green OA**
+
+-   Self-archiving on repositories or personal sites
+
+-   Uses pre-prints or post-prints (not final publisher version)
+
+-   May have embargo periods
+
+-   Free access; no APCs
+
+## 💛 **Gold OA**
+
+-   Published in fully OA journals
+
+-   Immediate access to final published version
+
+-   APCs usually required
+
+-   High visibility and wide dissemination
+
+## 💠 **Diamond OA**
+
+-   No APCs for authors or readers
+
+-   Often funded by institutions, societies, governments
+
+-   Focuses on providing free access to both readers and authors
+
+-   Free and equitable access for all
+
+## 🙅 **Hybrid**
+
+-   Subscription journals with optional OA per article
+
+-   Authors pay APCs for OA
+
+-   Meets OA mandates
+
+-   "Double-dipping": [subscriptions **and** APCs]{.rn rn-type="crossed-off" rn-strokeWidth="3" rn-color="tomato"}
+
+::: {.callout-caution collapse="true"}
+## INSERM's opinion [\[source\]](https://www.inserm.fr/nos-recherches/science-ouverte/#gare-au-modele-hybride)
+
+Certaines revues fonctionnent selon un modèle hybride : les articles y sont a priori publiés selon le modèle classique (payant pour le lecteur), mais la revue donne le choix aux auteurs de payer pour que leur travail soit publié en libre accès (payant pour l’auteur). Publier en *Open Access* dans ce type de revue est dès lors fortement déconseillé car cela entraîne un double paiement : celui de l’abonnement pour consulter l’ensemble de la revue et celui des frais de publication en *Open Access*
+:::
+::::
 
 ## Choose a license \[1/2\]
 
@@ -84,7 +228,7 @@ The license impacts what people can do with your work, e.g.
 
 ## Choose a license \[2/2\]
 
-The license impacts the publishing costs a.k.a APC
+The license impacts the article processing charges a.k.a APC
 
 ![](images/Example_APC.png){fig-align="center"}
 
@@ -106,53 +250,79 @@ The license impacts the publishing costs a.k.a APC
 
 ## So when can I upload the publishers' version exactly?
 
+xxx
+
 # Section 3: Data, code and software
 
 ## Go FAIR
 
--   **Findable**
+::: panel-tabset
+## **Findable**
 
-    -   F1. (Meta)data are assigned a globally **unique and persistent identifier**
+-   F1. (Meta)data are assigned a globally **unique and persistent identifier**
 
-    -   F2. Data are described with **rich metadata** (defined by R1)
+-   F2. Data are described with **rich metadata** (defined by R1)
 
-    -   F3. Metadata clearly and explicitly include the identifier of the data they describe
+-   F3. Metadata clearly and explicitly include the identifier of the data they describe
 
-    -   F4. (Meta)data are registered or indexed in a searchable resource
+-   F4. (Meta)data are registered or indexed in a searchable resource
 
--   **Accessible**
+## **Accessible**
 
-    -   A1. (Meta)data are **retrievable by their identifier** using a standardised communications protocol
+-   A1. (Meta)data are **retrievable by their identifier** using a standardised communications protocol
 
-        -   A1.1 The protocol is **open, free, and universally implementable**
+    -   A1.1 The protocol is **open, free, and universally implementable**
 
-        -   A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
+    -   A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
 
-    -   A2. Metadata are accessible, even when the data are no longer available
+-   A2. Metadata are accessible, even when the data are no longer available
 
-## Go FAIR
+## **Interoperable**
 
--   **Interoperable**
+-   I1. (Meta)data use a **formal, accessible, shared, and broadly applicable language** for knowledge representation.
 
-    -   I1. (Meta)data use a **formal, accessible, shared, and broadly applicable language** for knowledge representation.
+-   I2. (Meta)data use vocabularies that follow FAIR principles
 
-    -   I2. (Meta)data use vocabularies that follow FAIR principles
+-   I3. (Meta)data include qualified references to other (meta)data
 
-    -   I3. (Meta)data include qualified references to other (meta)data
+## **Reusable**
 
--   **Reusable**
+-   R1. (Meta)data are richly described with a plurality of **accurate and relevant attributes**
 
-    -   R1. (Meta)data are richly described with a plurality of **accurate and relevant attributes**
+    -   R1.1. (Meta)data are released with a clear and accessible data usage license
 
-        -   R1.1. (Meta)data are released with a clear and accessible data usage license
+    -   R1.2. (Meta)data are associated with **detailed provenance**
 
-        -   R1.2. (Meta)data are associated with **detailed provenance**
-
-        -   R1.3. (Meta)data meet domain-relevant **community standards**
+    -   R1.3. (Meta)data meet domain-relevant **community standards**
+:::
 
 ## Data management plan
 
--   DMP Opidor
+::: panel-tabset
+## OPIDoR
+
+Important service to generate your DMP, made mandatory by many funding agencies
+
+-   [DMP](https://dmp.opidor.fr/) OPIDoR to plan your data management
+
+-   [Cat OPIDoR](cat.opidor.fr), a wiki of services dedicated to research data
+
+-   PID OPIDoR for DOI.
+
+    -   Must request account creation to access [DataCite](https://doi.datacite.org/)
+
+Learn more [here](https://opidor.fr/).
+
+## Doranum
+:::
+
+## Share data
+
+Zenodo,...
+
+## Share software
+
+GitHub, GitLab, BitBucket,...
 
 # Section 4: Resources
 
@@ -164,7 +334,24 @@ The license impacts the publishing costs a.k.a APC
     -   Ensures the implementation of the National Open Science Policy
     -   Publishes guides, workshop reports
     -   Publishes a small (and pretty) Encyclopedia of Open Science: https://encyclo.ouvrirlascience.fr/
--   [CNRS](https://www.science-ouverte.cnrs.fr/en/) \[FR/EN\]:
+
+## Funding agencies and trustees
+
+-   [CNRS](https://www.science-ouverte.cnrs.fr/en/) \[FR/EN\]
+
+    -   [Resources to publish in Open Access](https://www.science-ouverte.cnrs.fr/service/publier-en-acces-ouvert/)
+
+    -   [Resources to manage and share data](https://www.science-ouverte.cnrs.fr/service/partager-et-gerer-mes-donnees/)
+
+    -   [Resources to access papers](https://www.science-ouverte.cnrs.fr/service/acceder-a-la-documentation/): Highly recommended: the [Click & Read](https://clickandread.inist.fr/) extension ❤️
+
+-   [INSERM](https://www.inserm.fr/nos-recherches/science-ouverte/) \[FR\]
+
+-   [European Commission](https://rea.ec.europa.eu/open-science_en) \[EN: Q&A on what you should comply with (for funding)
+
+-   [Plan S](https://www.coalition-s.org/): Initiative for Open Access publishing, built by a group of national research funding organisations, with the support of the ERC
+
+    -   [Plan S 10 principles](https://www.coalition-s.org/addendum-to-the-coalition-s-guidance-on-the-implementation-of-plan-s/principles-and-implementation/)
 
 ## Specific resources: Publishing
 

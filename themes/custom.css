@@ -2,6 +2,22 @@
 
 
 .highlight {
-  color: #ff8db3;
+  color: #68418a;
   font-weight: bold;
+}
+
+.panel-tabset [role="tab"] {
+  border-top-color: rgba(0,0,0,0);
+  display: inline-block;
+  margin-bottom: -1px;
+  color: #41648a;
+  font-weight: bold;
+}
+
+
+.slide-number, .reveal.has-logo .slide-number {
+  bottom: 14px !important;
+  left: 50px !important;
+  top: unset !important;
+  color: #43418a !important;
 }
