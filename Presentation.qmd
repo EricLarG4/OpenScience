@@ -140,6 +140,8 @@ Or I can re-use curated, high-quality data from a far-away university to make my
 
 -   if it is against any obligations mentioned in the Grant Agreement (e.g. personal data protection)
 
+For instance, you can archive data on Zenodo and [only share it with specific users](https://help.zenodo.org/docs/share/user-sharing/).
+
 ## Practically, what can I do?
 
 -   Publish in Open Access journals
@@ -399,7 +401,9 @@ Recommendation 1: Archive in an open repository
 
 # Section 3: Data, code and software
 
-## Go FAIR
+## Go FAIR[^1]
+
+[^1]: *Wilkinson, M. D. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci. Data 3:160018 doi: [10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18) (2016)*
 
 ::: panel-tabset
 ## **Findable**
@@ -441,7 +445,7 @@ Recommendation 1: Archive in an open repository
     -   R1.3. (Meta)data meet domain-relevant **community standards**
 :::
 
-## Data management plan
+## DMP and training
 
 ::: panel-tabset
 ## OPIDoR
@@ -467,16 +471,75 @@ Training platform from Inist-CNRS and Urfirst with resources to support the scie
 ![[Example of resource](https://doranum.fr/sciences-medicales/lintegrite-scientifique-et-la-reproductibilite-a-linserm/)](images/doranum_example.png)
 :::
 
-## Share data
+## Sharing data and software
 
-::: panel-tabset
+:::: panel-tabset
 ## General
 
-x
+Sharing data and software on open repositories
+
+-   Facilitates collaborations
+-   Increase visibility and impact
+-   Promotes data reuse and innovation
+-   Supports Open Science
+
+There are numerous repositories to choose from, from general purpose to specialized ones.
+
+You probably know those of your community; you'll find here a few general-purpose options.
 
 ## Zenodo
 
-x
+-   General purpose open repository built and operated by CERN and [OpenAIRE](https://www.openaire.eu/)
+
+-   User can deposit any research-related digital item
+
+    -   research papers
+    -   data sets
+    -   research software
+    -   reports
+
+<!-- -->
+
+-   Why use Zenodo?
+
+    -   Safe: Storage in CERN’s Data Centre for as long as CERN exists
+    -   Citeable: Every upload is assigned a DOI
+    -   No waiting time: Uploads available online immediately and DOI registered within seconds
+    -   Open or closed: Share e.g. anonymized clinical trial data with only medical professionals via [restricted access mode](https://help.zenodo.org/docs/share/user-sharing/)
+    -   Versioning: Dataset/software can be updated. DOI for all and specific versions
+    -   GitHub integration
+
+::: callout-note
+Zenodo is derived from Zenodotus, the first librarian of the Ancient Library of Alexandria and father of the first recorded use of metadata, a landmark in library history
+:::
+
+## GitHub & co
+
+Platforms like GitHub, GitLab offer numerous benefits not only to developers but also to researchers:
+
+-   Version Control: Track changes and manage branches effectively
+
+-   Collaboration: Enable multiple contributors to work simultaneously
+
+-   Accessibility: Increase visibility and attract global contributors
+
+-   Documentation: Provide comprehensive documentation and transparency
+
+-   Integration: Automate workflows and integrates with other platforms (Zenodo, HAL)
+
+-   Community: Network with peers and engage in open-source projects
+
+-   Backup: Ensure reliable preservation and retrieval of code
+
+-   Open Science: Support reproducibility and validation of research
+
+-   Licensing: Apply open-source licenses easily for legal compliance
+
+-   Learning: Explore projects and improve coding and collaboration skills
+
+## Zenodo x GitHub
+
+![GitHub integration and versioning in Zenodo](images/paste-8.png)
 
 ## Recherche.data.gouv
 
@@ -485,10 +548,10 @@ x
 -   [INSERM](https://entrepot.recherche.data.gouv.fr/dataverse/inserm)
 -   [CNRS](https://entrepot.recherche.data.gouv.fr/dataverse/cnrs)
 
-Login with institutional email/orcid
-:::
+![](images/paste-9.png)
 
-![](images/recherche_data_gouv.png)
+Login with institutional email/orcid
+::::
 
 ## Share software
 
