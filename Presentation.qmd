@@ -93,6 +93,16 @@ I can reuse and adapt this figure:
 
 ![](images/UNESCO_ccby.png){fig-align="center" width="1250"}
 
+## Knowledge reuse
+
+This presentation is [open-sourced](https://github.com/EricLarG4/OpenScience) and distributed under the [GPL-3.0 license](https://github.com/EricLarG4/OpenScience?tab=GPL-3.0-1-ov-file#GPL-3.0-1-ov-file).
+
+![[GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)](images/gnu.png)
+
+You can raise [issues](https://github.com/EricLarG4/OpenScience/issues), propose [modifications of the code](https://github.com/EricLarG4/OpenScience/pulls), or fork your own copy of the presentation.
+
+![](images/git.png)
+
 ## Data reuse
 
 Or I can re-use curated, high-quality data from a far-away university to make my own plots
@@ -257,29 +267,61 @@ The license impacts the article processing charges (APCs)
 ![](images/paste-4.png){width="75%"}
 :::
 
-## Choosing a journal
+## Couperin
 
-::: panel-tabset
-## Relevance and impact
+:::: panel-tabset
+## Choosing a journal
 
 Journals may be selected based on many criteria
 
--   Reputation
-
--   (perceived) Impact
+-   Reputation, impact
 
 -   Relevance to the work
 
-    -   <https://jane.biosemantics.org/>
+    -   [JANE: Journal/Author Name Estimator](https://jane.biosemantics.org/)
 
 OA options (and their costs) should be considered!
 
-The Couperin consortium negotiates decreased (or no) APCs on behalf of our trustees
+## Coupering.org
 
-## Couperin
+The Couperin consortium negotiates decreased (or no) APCs on behalf of our trustees.
 
-xx
+![Access the resources for the publisher with whom you want to publish](images/couperin_1.png)
+
+## Publications rights
+
+Depending on the publisher, there might be several options and forms of financial advantages:
+
+-   Decreased or no fees
+-   Prepaid APCs
+
+![ACS](images/paste-6.png)
+
+![RSC](images/couperin_3.png)
+
+## Workflow
+
+1.  Pick a publisher on Couperin.org
+2.  Consult the publication rights
+    1.  Check the OA and negotiation modalities
+    2.  When several options are available, choose the one that fits your needs:
+        1.  OA modality (green/gold/hybrid)
+        2.  License type
+        3.  Cost
+        4.  Consider institutional/funding requirements
+    3.  Check institution eligibility
+3.  Consult the publisher's dedicated page for practical use (example for the [ACS](https://acsopenscience.org/customers/couperin/#publish))
+4.  During submission, select the option you chose at step 2. It may be automatic (based on your institutional email/declared affiliation)
+5.  Profit
+
+::: callout-tip
+## Publish at the start of the year!
+
+For publishers where APCs are pre-paid, those might run out!
+
+![Pre-paid APCs at Wiley](images/couperin_4.png)
 :::
+::::
 
 ## Archiving after publication
 
@@ -408,6 +450,8 @@ Important service to generate your DMP, made mandatory by many funding agencies
 
 -   [DMP](https://dmp.opidor.fr/) OPIDoR to plan your data management
 
+    -   [Discover DMP OPIDoR in 180 seconds](https://www.canal-u.tv/chaines/inist-cnrs/embed/152543?t=0)
+
 -   [Cat OPIDoR](cat.opidor.fr), a wiki of services dedicated to research data
 
 -   PID OPIDoR for DOI.
@@ -417,11 +461,34 @@ Important service to generate your DMP, made mandatory by many funding agencies
 Learn more [here](https://opidor.fr/).
 
 ## Doranum
+
+Training platform from Inist-CNRS and Urfirst with resources to support the scientific community in managing and sharing their data
+
+![[Example of resource](https://doranum.fr/sciences-medicales/lintegrite-scientifique-et-la-reproductibilite-a-linserm/)](images/doranum_example.png)
 :::
 
 ## Share data
 
-Zenodo,...
+::: panel-tabset
+## General
+
+x
+
+## Zenodo
+
+x
+
+## Recherche.data.gouv
+
+[https://entrepot.recherche.data.gouv.fr/](entrepot.recherche.data.gouv.fr) is a national repository with a [generic space](https://entrepot.recherche.data.gouv.fr/dataverse/espacegenerique), and institutional spaces:
+
+-   [INSERM](https://entrepot.recherche.data.gouv.fr/dataverse/inserm)
+-   [CNRS](https://entrepot.recherche.data.gouv.fr/dataverse/cnrs)
+
+Login with institutional email/orcid
+:::
+
+![](images/recherche_data_gouv.png)
 
 ## Share software
 
@@ -469,6 +536,8 @@ GitHub, GitLab, BitBucket,...
 
 -   [Couperin consortium](https://www.couperin.org/) 🇫🇷: Negociates on behalf of public entities for publication access/publishing costs (among other things)
 
+    -   [List of publishers](https://www.couperin.org/category/negociations/accords-specifiques-so/)
+
 -   Publication licensing
 
     -   [Creative Commons](https://creativecommons.org/share-your-work/cclicenses/) 🇬🇧🇫🇷: Choose what people can do with your work
@@ -508,3 +577,9 @@ GitHub, GitLab, BitBucket,...
     -   Also available in 🇫🇷
 -   [FAIR](https://www.gofair.foundation/) data 🇬🇧
     -   [Principles](https://www.gofair.foundation/interpretation)
+-   DORANum 🇫🇷
+    -   [Déposer ses données de recherche : Pourquoi, quoi, quand et comment](https://doranum.fr/depot-entrepots/deposer-ses-donnees_10_13143_9d1h-h242/){.uri} ?
+    -   [Vérifier ses données de recherche](https://doranum.fr/depot-entrepots/verifier-donnees-recherche_10_13143_5rs6-4r06/)
+    -   [Quizz: Format ouvert ou fermé ?](https://doranum.fr/stockage-archivage/quiz-format-ouvert-ou-ferme_10_13143_mcwq-qs64/){.uri}
+-   [recherche.data.gouv.fr](https://recherche.data.gouv.fr/en) 🇬🇧🇫🇷: National data ecosystem
+    -   [Repository](https://entrepot.recherche.data.gouv.fr)
