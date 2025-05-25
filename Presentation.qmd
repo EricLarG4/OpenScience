@@ -518,24 +518,19 @@ Zenodo is derived from Zenodotus, the first librarian of the Ancient Library of 
 Platforms like GitHub, GitLab offer numerous benefits not only to developers but also to researchers:
 
 -   Version Control: Track changes and manage branches effectively
-
 -   Collaboration: Enable multiple contributors to work simultaneously
-
 -   Accessibility: Increase visibility and attract global contributors
-
 -   Documentation: Provide comprehensive documentation and transparency
-
 -   Integration: Automate workflows and integrates with other platforms (Zenodo, HAL)
-
 -   Community: Network with peers and engage in open-source projects
-
 -   Backup: Ensure reliable preservation and retrieval of code
-
 -   Open Science: Support reproducibility and validation of research
-
 -   Licensing: Apply open-source licenses easily for legal compliance
-
 -   Learning: Explore projects and improve coding and collaboration skills
+
+![Git versioning, here when this page was added](images/git_version.png)
+
+![Git automation: this webpage being automatically pushed online](images/git_auto.png)
 
 ## Zenodo x GitHub
 
