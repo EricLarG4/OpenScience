@@ -110,11 +110,11 @@ Reuse of a high-quality dataset deposited on [Zenodo] to make a much better and 
 
 ::::: columns
 ::: {.column width="50%"}
-![Typical Ramachandran plot made by the Procheck program, here shown on [Wikipedia](https://en.wikipedia.org/wiki/Ramachandran_plot#/media/File:1axc_PCNA_ProCheck_Rama.jpg).](images/rama_wiki.jpg){fig-align="center" width="400"}
+![Typical Ramachandran plot made by the Procheck program, here shown on [Wikipedia](https://en.wikipedia.org/wiki/Ramachandran_plot#/media/File:1axc_PCNA_ProCheck_Rama.jpg).](images/rama_wiki.jpg){fig-align="center" width="375"}
 :::
 
 ::: {.column width="50%"}
-![Home-made Ramachandran plot created from the top2018 dataset by the Richardson Lab at Duke University. These are high-quality residues from high-quality, low redundancy protein chains in the PDB.](images/base_ramanchadran.png){fig-align="center" width="400"}
+![Home-made Ramachandran plot created from the top2018 dataset by the Richardson Lab at Duke University. These are high-quality residues from high-quality, low redundancy protein chains in the PDB.](images/base_ramanchadran.png){fig-align="center" width="375"}
 :::
 :::::
 ::::::
@@ -143,21 +143,23 @@ Reuse of a high-quality dataset deposited on [Zenodo] to make a much better and 
 
 ## But people will steal my stuff!
 
-“As open as possible, as closed as necessary”: Results and data may be kept closed if making them public in open access is against the researcher’s legitimate interests, e.g.
+[“As open as possible, as closed as necessary”]{.highlight}:
 
--   commercially exploitation of research results
+Results and data may be kept closed if making them public in open access is against the researcher’s legitimate interests, e.g.
 
--   if it is against any obligations mentioned in the Grant Agreement (e.g. personal data protection)
+-   Commercially exploitation of research results
+
+-   If it is against any obligations mentioned in the Grant Agreement (e.g. personal data protection)
 
 For instance, you can archive data on Zenodo and [only share it with specific users](https://help.zenodo.org/docs/share/user-sharing/).
 
 ## Practically, what can I do?
 
--   Publish in Open Access journals
+-   Publish in [Open Access journals]{.highlight}
 
     -   or make your preprint and/or accepter manuscript available
 
--   Share your data in open repositories
+-   Share your data in [open repositories]{.highlight}
 
 -   Use open-source tools and software
 
@@ -176,20 +178,20 @@ For instance, you can archive data on Zenodo and [only share it with specific us
 ::: panel-tabset
 ## Repositories
 
--   Free and with good visibility for well-known repositories ([BioRχiv](https://www.biorxiv.org/){.uri}, [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/public-dashboard))
+-   [Free and with good visibility]{.highlight} for well-known repositories ([BioRχiv](https://www.biorxiv.org/){.uri}, [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/public-dashboard))
 
     -   Indexed in e.g. Google Scholar, [Europe PMC](https://europepmc.org/)
     -   Has a DOI, citable
 
 -   Supported by many publishers
 
--   Possible to revise the manuscript and thus to upload accepted manuscript
+-   Possible to [revise the manuscript]{.highlight} and thus to upload accepted manuscript
 
     -   See [Google Scholar]
 
--   Possible to link final paper to preprint
+-   Possible to [link final paper]{.highlight} to preprint
 
--   Authors retain copyright
+-   Authors [retain copyright]{.highlight}
 
 -   Authors establish precedence
 
@@ -203,48 +205,48 @@ For instance, you can archive data on Zenodo and [only share it with specific us
 :::: panel-tabset
 ## 🟩 **Green OA**
 
--   Self-archiving on repositories or personal sites
+-   [Self-archiving]{.highlight} on repositories or personal sites
 
--   Uses pre-prints or post-prints (not final publisher version)
+-   Uses [pre-prints or post-prints]{.highlight} (not final publisher version)
 
 -   May have embargo periods
 
--   Free access; no APCs
+-   [Free access; no APCs]{.highlight}
 
 ## 💛 **Gold OA**
 
--   Published in fully OA journals
+-   Published in [fully OA journals]{.highlight}
 
--   Immediate access to final published version
+-   Immediate access to final [published version]{.highlight}
 
--   APCs usually required
+-   [APCs]{.highlight} usually required
 
--   High visibility and wide dissemination
+-   [High visibility]{.highlight} and wide dissemination
 
 ## 💠 **Diamond OA**
 
--   No APCs for authors or readers
+-   [No APCs for authors or cost for readers]{.highlight}
 
 -   Often funded by institutions, societies, governments
 
 -   Focuses on providing free access to both readers and authors
 
--   Free and equitable access for all
+-   [Free and equitable access for all]{.highlight}
 
 ## 🙅 **Hybrid**
 
--   Subscription journals with optional OA per article
+-   Subscription journals with [optional OA per article]{.highlight}
 
--   Authors pay APCs for OA
+-   [Authors pay APCs for OA]{.highlight}
 
 -   Meets OA mandates
 
--   "Double-dipping": [subscriptions **and** APCs]{.rn rn-type="crossed-off" rn-strokeWidth="3" rn-color="tomato"}
+-   ["Double-dipping"]{.highlight}: [subscriptions **and** APCs]{.rn rn-type="crossed-off" rn-strokeWidth="3" rn-color="tomato"}
 
 ::: {.callout-caution collapse="true"}
 ## INSERM's opinion [\[source\]](https://www.inserm.fr/nos-recherches/science-ouverte/#gare-au-modele-hybride)
 
-Certaines revues fonctionnent selon un modèle hybride : les articles y sont a priori publiés selon le modèle classique (payant pour le lecteur), mais la revue donne le choix aux auteurs de payer pour que leur travail soit publié en libre accès (payant pour l’auteur). Publier en *Open Access* dans ce type de revue est dès lors fortement déconseillé car cela entraîne un double paiement : celui de l’abonnement pour consulter l’ensemble de la revue et celui des frais de publication en *Open Access*
+Certaines revues fonctionnent selon un modèle hybride : les articles y sont a priori publiés selon le modèle classique (payant pour le lecteur), mais la revue donne le choix aux auteurs de payer pour que leur travail soit publié en libre accès (payant pour l’auteur). [Publier en *Open Access* dans ce type de revue est dès lors fortement déconseillé car cela entraîne un double paiement]{.highlight} : celui de l’abonnement pour consulter l’ensemble de la revue et celui des frais de publication en *Open Access*
 :::
 ::::
 
@@ -253,9 +255,9 @@ Certaines revues fonctionnent selon un modèle hybride : les articles y sont a p
 ::: panel-tabset
 ## Impact on use
 
-The license impacts what people can do with your work, e.g.
+The license [impacts what people can do with your work]{.highlight}, e.g.
 
--   CC BY: Reusers can distribute
+-   [CC BY]{.highlight}: Reusers can distribute
 
     -   if attribution given
 
@@ -263,7 +265,7 @@ The license impacts what people can do with your work, e.g.
 
     -   including for [commercial]{.highlight} use
 
--   CC BY-NC-ND: Reusers can copy and distribute the work
+-   [CC BY-NC-ND]{.highlight}: Reusers can copy and distribute the work
 
     -   if attribution given
 
@@ -273,7 +275,7 @@ The license impacts what people can do with your work, e.g.
 
 ## Impact on cost
 
-The license impacts the article processing charges (APCs)
+The license [impacts the APCs]{.highlight}
 
 ![](images/paste-4.png){fig-align="center" width="60%"}
 :::
@@ -287,6 +289,8 @@ Journals may be selected based on many criteria
 
 -   Reputation, impact
 
+-   APCs
+
 -   Relevance to the work
 
     -   [JANE: Journal/Author Name Estimator](https://jane.biosemantics.org/) 🇬🇧
@@ -295,7 +299,7 @@ Journals may be selected based on many criteria
 
 ## Coupering.org
 
-The Couperin consortium negotiates decreased (or no) APCs on behalf of our trustees.
+The Couperin consortium [negotiates reading and publishing rights]{.highlight} on behalf of our trustees
 
 ![Access the resources for the publisher with whom you want to publish](images/couperin_1.png){width="600"}
 
@@ -312,17 +316,17 @@ Depending on the publisher, there might be several options and forms of financia
 
 ## Workflow
 
-1.  Pick a publisher on Couperin.org
+1.  Select a publisher on Couperin.org
 2.  Consult the publication rights
     1.  Check the OA and negotiation modalities
     2.  When several options are available, choose the one that fits your needs:
         1.  OA modality (green/gold/hybrid)
-        2.  License type
+        2.  License
         3.  Cost
-        4.  Consider institutional/funding requirements
+        4.  Institutional/funding requirements
     3.  Check institution eligibility
 3.  Consult the publisher's dedicated page for practical use (example for the [ACS](https://acsopenscience.org/customers/couperin/#publish))
-4.  During submission, select the option you chose at step 2. It may be automatic (based on your institutional email/declared affiliation)
+4.  During submission, select the option you chose at step 2.2. It may be automatic (based on your institutional email/declared affiliation)
 5.  Profit
 
 ::: callout-tip
@@ -391,7 +395,7 @@ An important question to consider is whether you want to use the publisher’s P
 
 ## Charte INSERM
 
-Recommendation 1: Archive in an open repository
+***Recommendation 1: Archive in an open repository***
 
 -   The 2016 Digital Republic Act \[[Légifrance](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000033202746) 🇫🇷\] grants authors the [right to deposit the AAM in an open archive]{.highlight}
 
@@ -417,9 +421,9 @@ Recommendation 1: Archive in an open repository
 ::: panel-tabset
 ## **Findable**
 
--   F1. (Meta)data are assigned a globally **unique and persistent identifier**
+-   F1. (Meta)data are assigned a globally [unique and persistent identifier]{.highlight}
 
--   F2. Data are described with **rich metadata** (defined by R1)
+-   F2. Data are described with [rich metadata]{.highlight} (defined by R1)
 
 -   F3. Metadata clearly and explicitly include the identifier of the data they describe
 
@@ -427,9 +431,9 @@ Recommendation 1: Archive in an open repository
 
 ## **Accessible**
 
--   A1. (Meta)data are **retrievable by their identifier** using a standardised communications protocol
+-   A1. (Meta)data are **r**[etrievable by their identifier]{.highlight} using a standardised communications protocol
 
-    -   A1.1 The protocol is **open, free, and universally implementable**
+    -   A1.1 The protocol is [open, free, and universally implementable]{.highlight}
 
     -   A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
 
@@ -437,7 +441,7 @@ Recommendation 1: Archive in an open repository
 
 ## **Interoperable**
 
--   I1. (Meta)data use a **formal, accessible, shared, and broadly applicable language** for knowledge representation.
+-   I1. (Meta)data use a [formal, accessible, shared, and broadly applicable language]{.highlight} for knowledge representation.
 
 -   I2. (Meta)data use vocabularies that follow FAIR principles
 
@@ -445,13 +449,13 @@ Recommendation 1: Archive in an open repository
 
 ## **Reusable**
 
--   R1. (Meta)data are richly described with a plurality of **accurate and relevant attributes**
+-   R1. (Meta)data are richly described with a plurality of [accurate and relevant attributes]{.highlight}
 
     -   R1.1. (Meta)data are released with a clear and accessible data usage license
 
-    -   R1.2. (Meta)data are associated with **detailed provenance**
+    -   R1.2. (Meta)data are associated with [detailed provenance]{.highlight}
 
-    -   R1.3. (Meta)data meet domain-relevant **community standards**
+    -   R1.3. (Meta)data meet domain-relevant [community standards]{.highlight}
 :::
 
 ## DMP and training
@@ -487,18 +491,18 @@ Training platform from Inist-CNRS and Urfirst with resources to support the scie
 
 Sharing data and software on open repositories
 
--   Facilitates collaborations
--   Increase visibility and impact
+-   Facilitates [collaborations]{.highlight}
+-   Increase [visibility and impact]{.highlight}
 -   Promotes data reuse and innovation
 -   Supports Open Science
 
 There are numerous repositories to choose from, from general purpose to specialized ones.
 
-You probably know those of your community; you'll find here a few general-purpose options.
+You probably know those of your community: make use of them and follow community standards.
 
 ## Zenodo
 
--   General purpose open repository built and operated by CERN and [OpenAIRE](https://www.openaire.eu/)
+-   [General purpose open repository]{.highlight} built and operated by CERN and [OpenAIRE](https://www.openaire.eu/)
 
 -   User can deposit any research-related digital item
 
@@ -507,16 +511,14 @@ You probably know those of your community; you'll find here a few general-purpos
     -   research software
     -   reports
 
-<!-- -->
-
 -   Why use Zenodo?
 
-    -   Safe: Storage in CERN’s Data Centre for as long as CERN exists
-    -   Citeable: Every upload is assigned a DOI
+    -   [Safe]{.highlight}: Storage in CERN’s Data Centre for as long as CERN exists
+    -   [Citeable]{.highlight}: Every upload is assigned a DOI
     -   No waiting time: Uploads available online immediately and DOI registered within seconds
-    -   Open or closed: Share e.g. anonymized clinical trial data with only medical professionals via [restricted access mode](https://help.zenodo.org/docs/share/user-sharing/)
-    -   Versioning: Dataset/software can be updated. DOI for all and specific versions
-    -   GitHub integration
+    -   [Open or closed]{.highlight}: Share e.g. anonymized clinical trial data with only medical professionals via [restricted access mode](https://help.zenodo.org/docs/share/user-sharing/)
+    -   [Versioning]{.highlight}: Dataset/software can be updated. DOI for all and specific versions
+    -   [GitHub integration]{.highlight}
 
 ::: callout-note
 Zenodo is derived from Zenodotus, the first librarian of the Ancient Library of Alexandria and father of the first recorded use of metadata, a landmark in library history
@@ -524,18 +526,16 @@ Zenodo is derived from Zenodotus, the first librarian of the Ancient Library of 
 
 ## GitHub & co
 
-Platforms like GitHub, GitLab offer numerous benefits not only to developers but also to researchers:
+Platforms like [GitHub](https://github.com/) and [GitLab](https://gitlab.com/) offer numerous benefits not only to developers but also to researchers:
 
--   Version Control: Track changes and manage branches effectively
--   Collaboration: Enable multiple contributors to work simultaneously
--   Accessibility: Increase visibility and attract global contributors
--   Documentation: Provide comprehensive documentation and transparency
--   Integration: Automate workflows and integrates with other platforms (Zenodo, HAL)
--   Community: Network with peers and engage in open-source projects
--   Backup: Ensure reliable preservation and retrieval of code
--   Open Science: Support reproducibility and validation of research
--   Licensing: Apply open-source licenses easily for legal compliance
--   Learning: Explore projects and improve coding and collaboration skills
+-   [Back-up]{.highlight} and [Version Contro]{.highlight}l: Reliable preservation and retrieval of code; track changes
+-   [Collaboration]{.highlight}: Enable multiple contributors to work simultaneously
+-   [Accessibility]{.highlight}: Increase visibility and attract contributors outside of the lab
+-   [Documentation]{.highlight}: Provide comprehensive documentation and transparency
+-   [Integration]{.highlight}: Automate workflows and integrates with other platforms (Zenodo, HAL)
+-   [Open Science]{.highlight}: Support reproducibility and validation of research
+-   [Licensing]{.highlight}: Apply open-source licenses easily
+-   [Learning]{.highlight}: Explore projects and improve coding skills
 
 ::::: columns
 ::: {.column width="50%"}
@@ -553,14 +553,12 @@ Platforms like GitHub, GitLab offer numerous benefits not only to developers but
 
 ## Recherche.data.gouv
 
-[https://entrepot.recherche.data.gouv.fr/](entrepot.recherche.data.gouv.fr) is a national repository with a [generic space](https://entrepot.recherche.data.gouv.fr/dataverse/espacegenerique), and institutional spaces:
+[https://entrepot.recherche.data.gouv.fr/](entrepot.recherche.data.gouv.fr) is a national repository (Login with institutional email/orcid) with a [generic space](https://entrepot.recherche.data.gouv.fr/dataverse/espacegenerique), and institutional spaces:
 
 -   [INSERM](https://entrepot.recherche.data.gouv.fr/dataverse/inserm)
 -   [CNRS](https://entrepot.recherche.data.gouv.fr/dataverse/cnrs)
 
 ![](images/paste-9.png){fig-align="center" width="800"}
-
-Login with institutional email/orcid
 
 ## 
 :::::::
