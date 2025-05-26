@@ -105,12 +105,17 @@ You can raise [issues](https://github.com/EricLarG4/OpenScience/issues), propose
 
 ## Data reuse
 
-Or I can re-use curated, high-quality data from a far-away university to make my own plots
+Reuse of a high-quality dataset deposited on [Zenodo] to make a much better and better controlled reference figure.[^1]
 
-#INSERT RACHAMANDRAN#
+![Typical Ramachandran plot made by the Procheck program, here shown on [Wikipedia](https://en.wikipedia.org/wiki/Ramachandran_plot#/media/File:1axc_PCNA_ProCheck_Rama.jpg).](images/rama_wiki.jpg)
 
-## 
+![Home-made Ramachandran plot created from the top2018 dataset by the Richardson Lab at Duke University. These are high-quality residues from high-quality, low redundancy protein chains in the PDB.](images/base_ramanchadran.png){width="500"}
 :::
+
+[^1]:
+    ::: panel-tabset
+    Williams,C., Richardson,D. and Richardson,J. (2021) High quality protein residues: Top2018 mainchain-filtered residues. [10.5281/ZENODO.4626149](https://doi.org/10.5281/ZENODO.4626149)
+    :::
 
 ## Why should I care?, but for pragmatists
 
@@ -160,7 +165,7 @@ For instance, you can archive data on Zenodo and [only share it with specific us
 
 -   Educate others about the importance and benefits of Open Science
 
-# Section 2: How to publish Open papers without having to sell a kidney
+# Section 2: How to publish Open papers without having to sell a kidney {background-color="#43418a"}
 
 ## Archiving on a pre-print repository
 
@@ -235,7 +240,7 @@ For instance, you can archive data on Zenodo and [only share it with specific us
 ::: {.callout-caution collapse="true"}
 ## INSERM's opinion [\[source\]](https://www.inserm.fr/nos-recherches/science-ouverte/#gare-au-modele-hybride)
 
-Certaines revues fonctionnent selon un modèle hybride : les articles y sont a priori publiés selon le modèle classique (payant pour le lecteur), mais la revue donne le choix aux auteurs de payer pour que leur travail soit publié en libre accès (payant pour l’auteur). Publier en *Open Access* dans ce type de revue est dès lors fortement déconseillé car cela entraîne un double paiement : celui de l’abonnement pour consulter l’ensemble de la revue et celui des frais de publication en *Open Access*
+Certaines revues fonctionnent selon un modèle hybride : les articles y sont a priori publiés selon le modèle classique (payant pour le lecteur), mais la revue donne le choix aux auteurs de payer pour que leur travail soit publié en libre accès (payant pour l’auteur). Publier en *Open Access* dans ce type de revue est dès lors fortement déconseillé car cela entraîne un double paiement : celui de l’abonnement pour consulter l’ensemble de la revue et celui des frais de publication en *Open Access*
 :::
 ::::
 
@@ -399,11 +404,11 @@ Recommendation 1: Archive in an open repository
 
 </div>
 
-# Section 3: Data, code and software
+# Section 3: Data, code and software {background-color="#43418a"}
 
-## Go FAIR[^1]
+## Go FAIR[^2]
 
-[^1]: *Wilkinson, M. D. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci. Data 3:160018 doi: [10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18) (2016)*
+[^2]: *Wilkinson, M. D. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci. Data 3:160018 doi: [10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18) (2016)*
 
 ::: panel-tabset
 ## **Findable**
@@ -552,7 +557,7 @@ Login with institutional email/orcid
 
 GitHub, GitLab, BitBucket,...
 
-# Section 4: Resources
+# Section 4: Resources {background-color="#43418a"}
 
 ## General resources
 
