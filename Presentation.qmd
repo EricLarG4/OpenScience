@@ -10,6 +10,7 @@ format:
     css: [themes/custom.css]
     transition: fade
     transition-speed: slow
+    background-transition: fade
     navigation-mode: vertical
     progress: true
     controls: auto
@@ -84,7 +85,7 @@ Key components:
 
 ## Why should I care? Examples
 
-::: panel-tabset
+:::::: panel-tabset
 ## Figure reuse
 
 I can reuse and adapt this figure:
@@ -97,25 +98,28 @@ I can reuse and adapt this figure:
 
 This presentation is [open-sourced](https://github.com/EricLarG4/OpenScience) and distributed under the [GPL-3.0 license](https://github.com/EricLarG4/OpenScience?tab=GPL-3.0-1-ov-file#GPL-3.0-1-ov-file).
 
-![[GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)](images/gnu.png)
+![[GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)](images/gnu.png){fig-align="center" width="500"}
 
 You can raise [issues](https://github.com/EricLarG4/OpenScience/issues), propose [modifications of the code](https://github.com/EricLarG4/OpenScience/pulls), or fork your own copy of the presentation.
 
-![](images/git.png)
+![](images/git.png){fig-align="center" width="500"}
 
 ## Data reuse
 
 Reuse of a high-quality dataset deposited on [Zenodo] to make a much better and better controlled reference figure.[^1]
 
-![Typical Ramachandran plot made by the Procheck program, here shown on [Wikipedia](https://en.wikipedia.org/wiki/Ramachandran_plot#/media/File:1axc_PCNA_ProCheck_Rama.jpg).](images/rama_wiki.jpg)
-
-![Home-made Ramachandran plot created from the top2018 dataset by the Richardson Lab at Duke University. These are high-quality residues from high-quality, low redundancy protein chains in the PDB.](images/base_ramanchadran.png){width="500"}
+::::: columns
+::: {.column width="50%"}
+![Typical Ramachandran plot made by the Procheck program, here shown on [Wikipedia](https://en.wikipedia.org/wiki/Ramachandran_plot#/media/File:1axc_PCNA_ProCheck_Rama.jpg).](images/rama_wiki.jpg){fig-align="center" width="400"}
 :::
 
-[^1]:
-    ::: panel-tabset
-    Williams,C., Richardson,D. and Richardson,J. (2021) High quality protein residues: Top2018 mainchain-filtered residues. [10.5281/ZENODO.4626149](https://doi.org/10.5281/ZENODO.4626149)
-    :::
+::: {.column width="50%"}
+![Home-made Ramachandran plot created from the top2018 dataset by the Richardson Lab at Duke University. These are high-quality residues from high-quality, low redundancy protein chains in the PDB.](images/base_ramanchadran.png){fig-align="center" width="400"}
+:::
+:::::
+::::::
+
+[^1]: Williams,C., Richardson,D. and Richardson,J. (2021) High quality protein residues: Top2018 mainchain-filtered residues. [10.5281/ZENODO.4626149](https://doi.org/10.5281/ZENODO.4626149)
 
 ## Why should I care?, but for pragmatists
 
@@ -191,7 +195,7 @@ For instance, you can archive data on Zenodo and [only share it with specific us
 
 ## Example
 
-![](images/paste-3.png){width="75%"}
+![](images/paste-3.png){width="65%"}
 :::
 
 ## Choose an open access modality
@@ -271,7 +275,7 @@ The license impacts what people can do with your work, e.g.
 
 The license impacts the article processing charges (APCs)
 
-![](images/paste-4.png){width="75%"}
+![](images/paste-4.png){fig-align="center" width="60%"}
 :::
 
 ## Couperin
@@ -285,15 +289,15 @@ Journals may be selected based on many criteria
 
 -   Relevance to the work
 
-    -   [JANE: Journal/Author Name Estimator](https://jane.biosemantics.org/)
+    -   [JANE: Journal/Author Name Estimator](https://jane.biosemantics.org/) 🇬🇧
 
-OA options (and their costs) should be considered!
+[OA options (and their costs) should be considered!]{.highlight}
 
 ## Coupering.org
 
 The Couperin consortium negotiates decreased (or no) APCs on behalf of our trustees.
 
-![Access the resources for the publisher with whom you want to publish](images/couperin_1.png)
+![Access the resources for the publisher with whom you want to publish](images/couperin_1.png){width="600"}
 
 ## Publications rights
 
@@ -302,9 +306,9 @@ Depending on the publisher, there might be several options and forms of financia
 -   Decreased or no fees
 -   Prepaid APCs
 
-![ACS](images/paste-6.png)
+![ACS](images/paste-6.png){width="600"}
 
-![RSC](images/couperin_3.png)
+![RSC](images/couperin_3.png){width="600"}
 
 ## Workflow
 
@@ -326,7 +330,7 @@ Depending on the publisher, there might be several options and forms of financia
 
 For publishers where APCs are pre-paid, those might run out!
 
-![Pre-paid APCs at Wiley](images/couperin_4.png)
+![Pre-paid APCs at Wiley](images/couperin_4.png){width="400"}
 :::
 ::::
 
@@ -383,7 +387,7 @@ An important question to consider is whether you want to use the publisher’s P
 
 ## Google Scholar
 
-![](images/scholar_2.png)
+![](images/scholar_2.png){width="600"}
 
 ## Charte INSERM
 
@@ -473,12 +477,12 @@ Learn more [here](https://opidor.fr/).
 
 Training platform from Inist-CNRS and Urfirst with resources to support the scientific community in managing and sharing their data
 
-![[Example of resource](https://doranum.fr/sciences-medicales/lintegrite-scientifique-et-la-reproductibilite-a-linserm/)](images/doranum_example.png)
+![[Example of resource](https://doranum.fr/sciences-medicales/lintegrite-scientifique-et-la-reproductibilite-a-linserm/)](images/doranum_example.png){fig-align="center" width="80%"}
 :::
 
 ## Sharing data and software
 
-:::: panel-tabset
+::::::: panel-tabset
 ## General
 
 Sharing data and software on open repositories
@@ -533,13 +537,19 @@ Platforms like GitHub, GitLab offer numerous benefits not only to developers but
 -   Licensing: Apply open-source licenses easily for legal compliance
 -   Learning: Explore projects and improve coding and collaboration skills
 
-![Git versioning, here when this page was added](images/git_version.png)
+::::: columns
+::: {.column width="50%"}
+![Git versioning, here when this page was added](images/git_version.png){width="300"}
+:::
 
-![Git automation: this webpage being automatically pushed online](images/git_auto.png)
+::: {.column width="50%"}
+![Git automation: this webpage being automatically pushed online](images/git_auto.png){width="300"}
+:::
+:::::
 
 ## Zenodo x GitHub
 
-![GitHub integration and versioning in Zenodo](images/paste-8.png)
+![GitHub integration and versioning in Zenodo](images/paste-8.png){width="90%"}
 
 ## Recherche.data.gouv
 
@@ -548,14 +558,12 @@ Platforms like GitHub, GitLab offer numerous benefits not only to developers but
 -   [INSERM](https://entrepot.recherche.data.gouv.fr/dataverse/inserm)
 -   [CNRS](https://entrepot.recherche.data.gouv.fr/dataverse/cnrs)
 
-![](images/paste-9.png)
+![](images/paste-9.png){fig-align="center" width="800"}
 
 Login with institutional email/orcid
-::::
 
-## Share software
-
-GitHub, GitLab, BitBucket,...
+## 
+:::::::
 
 # Section 4: Resources {background-color="#43418a"}
 
