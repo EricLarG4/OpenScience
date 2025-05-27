@@ -135,6 +135,8 @@ Reuse of a high-quality dataset deposited on [Zenodo] to make a much better and 
 
         -   See the recommendation for immediate and systematic archiving: [Charte INSERM]
 
+-   [Journals]{.highlight} increasingly request [data deposition]{.highlight}
+
 -   Open archive repositories may serve [individual and team evaluation]{.highlight}
 
 -   [Open Science practices are evaluated]{.highlight} in funding/fellowship proposals
@@ -324,7 +326,7 @@ Depending on the publisher, there might be several options and forms of financia
         2.  License
         3.  Cost
         4.  Institutional/funding requirements
-    3.  Check institution eligibility
+    3.  Check institution eligibility, as shown on page + Excel file ([example for Springer Nature](https://www.couperin.org/wp-content/uploads/2024/07/Couperin_Publishing_liste_2025.xlsx))
 3.  Consult the publisher's dedicated page for practical use (example for the [ACS](https://acsopenscience.org/customers/couperin/#publish))
 4.  During submission, select the option you chose at step 2.2. It may be automatic (based on your institutional email/declared affiliation)
 5.  Profit
@@ -606,6 +608,7 @@ Platforms like [GitHub](https://github.com/) and [GitLab](https://gitlab.com/) o
 -   [Couperin consortium](https://www.couperin.org/) 🇫🇷: Negociates on behalf of public entities for publication access/publishing costs (among other things)
 
     -   [List of publishers](https://www.couperin.org/category/negociations/accords-specifiques-so/)
+    -   [Facilitateur d'accès aux ressources](https://www.couperin.org/services-et-activites/comparatifs/outils-facilitant-lacces-a-la-documentation-electronique/)
 
 -   Publication licensing
 
